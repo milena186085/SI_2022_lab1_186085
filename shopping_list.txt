@@ -2,4 +2,4 @@ Apple x 2
 Ball x 3
 Orange x 4
 Juice x 2
-Bread x 8
+Bread x 5
