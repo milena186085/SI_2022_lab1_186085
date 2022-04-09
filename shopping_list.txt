@@ -1,5 +1,6 @@
 Apple x 2
-Ball x 4
+Ball x 5
 Orange x 4
-Juice x 2
-Bread x 5
+Juice x 3
+Bread x 8
+M&M   x 9
