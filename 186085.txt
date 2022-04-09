@@ -1,22 +1,22 @@
 #+TITLE: Docs
 
-5.
+### 5.
 
 git add shopping_list.txt
 git commit -m "Add 5 items to shopping list"
 git push
 
-6.
+### 6.
 
 git add shopping_list.txt
 git commit -m "Add quantities to the items."
 git push
 
-7.
+### 7.
 git branch branch1
 git branch branch2
 
-8.
+### 8.
    git log
 
     commit 246738f9d65d7774db594f88888e1d4a62c6b976 (HEAD -> branch2, origin/master, origin/HEAD, master, branch1)
@@ -43,27 +43,27 @@ git branch branch2
 
         Initial commit
 
-9.
+### 9.
     git checkout branch1
     git merge master
     git checkout branch2
     git merge master
 
-10.
+### 10.
     git checkout branch1
 
-11.
+### 11.
     git add shopping_list
     git commit -m "Changed quantity of item #5"
 
-12.
+### 12.
     git checkout master
 
-13.
+### 13.
     git add shopping_list
     git commit -m "Change quantity of item #2"
 
-14.
+### 14.
     git checkout branch1
     git merge master
     git commit
@@ -72,14 +72,14 @@ git branch branch2
     git merge master
     git commit
 
-15.
+### 15.
     git checkout branch2
 
-16.
+### 16.
     git add shopping_list
     git commit -m "Modify item #4"
 
-17.
+### 17.
     commit 6620571c93e4bc92c0e3ef6ee5c55ae0078d3e5a
 Author: milena186085 <kukoljmilena8@gmail.com>
 Date:   Sat Apr 9 19:49:15 2022 +0200
@@ -116,11 +116,11 @@ Date:   Fri Mar 18 13:41:37 2022 +0100
 
     Initial commit
 
-18.
+### 18.
     git add shopping_list
     git commit --amend -m "Modify item #4 and add item #6"
 
-19.
+### 19.
     commit 1de3c520d8c0a4392a05ed9fcc06e94f333e56cf
 Author: milena186085 <kukoljmilena8@gmail.com>
 Date:   Sat Apr 9 19:49:15 2022 +0200
@@ -157,10 +157,21 @@ Date:   Fri Mar 18 13:41:37 2022 +0100
 
     Initial commit
 
-20.
+### 20.
     git checkout master
     git merge branch1
 
-21.
+### 21.
     git add shopping_list
     git commit -m "Merged and resolved conflict in shopping_list.txt with branch2"
+
+### 23.
+    git add 186085.txt
+    git commit -m "Add docs"
+
+### 24.
+    git checkout branch1
+    git merge master
+
+    git checkout branch2
+    git merge master
